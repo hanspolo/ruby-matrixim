@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+  riot:
+    image: silviof/matrix-riot-docker
+    ports:
+      - "8765:8765"
+    volumes:
+      - /etc/riot:/data
